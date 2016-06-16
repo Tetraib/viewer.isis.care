@@ -1,5 +1,11 @@
 {
   "name": "viewer.isis.care",
+  "version":"0.0.1",
+  "license" :"GPL-3.0",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/Tetraib/viewer.isis.care"
+  },
   "private": true,
   "scripts": {
     "start": "meteor run --port $IP:$PORT"
