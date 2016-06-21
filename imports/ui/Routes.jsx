@@ -3,12 +3,13 @@ import { Router, Route, browserHistory } from 'react-router';
 
 // route components
 import App from './App.jsx';
-import About from './About.jsx';
+import Grid from './Grid.jsx';
 
 
 export const renderRoutes = () => (
   <Router history={browserHistory}>
-    <Route path="/" component={App}/>
-    <Route path="/about" component={About}/>
+    <Route path="/" component={App}>
+        <Route path="/grid" component={Grid}/>
+    </Route>
   </Router>
 );
